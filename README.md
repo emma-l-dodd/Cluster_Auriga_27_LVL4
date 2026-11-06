@@ -14,21 +14,20 @@ Clustering is performed in integrals-of-motion (IOM) space \((E_n, L_z, L_\perp)
 
 ### Mahalanobis distance
 
-The Mahalanobis distance accounts for the covariance between the three IOM coordinates:
-
-\[
+The Mahalanobis distance:
+$$
 D_M(\mathbf{x},\boldsymbol{\mu}) =
 \sqrt{(\mathbf{x}-\boldsymbol{\mu})^T
 \boldsymbol{\Sigma}^{-1}
 (\mathbf{x}-\boldsymbol{\mu})}
-\]
+$$
 
 where:
 
-- \(\mathbf{x}=(E_n,L_z,L_\perp)\) is the IOM coordinate vector.
-- \(\boldsymbol{\mu}\) is the reference centroid.
-- \(\boldsymbol{\Sigma}\) is the covariance matrix used for the comparison.
-
+- $\mathbf{x}=(E_n,L_z,L_\perp)$ is the IOM coordinate vector.
+- $\boldsymbol{\mu}$ is the reference centroid.
+- $\boldsymbol{\Sigma}$ is the covariance matrix used for the comparison.
+- 
 
 ## Added members to the clusters / groups
 
