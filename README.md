@@ -15,6 +15,7 @@ Clustering is performed in integrals-of-motion (IOM) space \((E_n, L_z, L_\perp)
 ### Mahalanobis distance
 
 The Mahalanobis distance:
+
 $$
 D_M(\mathbf{x},\boldsymbol{\mu}) =
 \sqrt{(\mathbf{x}-\boldsymbol{\mu})^T
