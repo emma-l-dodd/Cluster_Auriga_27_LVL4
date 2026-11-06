@@ -26,8 +26,8 @@ $$
 where:
 
 - $\mathbf{x}=(E_n,L_z,L_\perp)$ is the IOM coordinate vector.
-- $\boldsymbol{\mu}$ is the reference centroid.
-- $\boldsymbol{\Sigma}$ is the covariance matrix used for the comparison.
+- $\boldsymbol{\mu}$ is the mean of the cluster/group in IOM space.
+- $\boldsymbol{\Sigma}$ is the covariance matrix of the cluster/group.
 - 
 
 ## Added members to the clusters / groups
